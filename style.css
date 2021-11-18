@@ -1,0 +1,76 @@
+body {
+    /* fallback for old browsers */
+    background: #accbee;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(64, 147, 230, 0.65), rgba(236, 235, 235, 0.65));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(64, 147, 230, 0.65), rgba(236, 235, 235, 0.65));
+  }
+
+  /* Dashboard */
+.navbar, .page-footer {
+   background-color: rgba(17, 103, 177, 1);
+ }
+
+.logout-btn, .view-ticket-btn, .add-ticket-btn {
+    background-color: rgba(17, 103, 177, 0.5);
+}
+
+.text-color {
+    color: rgba(17, 103, 177, 1);
+}
+
+.view-container {
+    border: 1px solid rgba(17, 103, 177, 1);
+}
+/* ---------- */
+
+/* Ticket */
+.to-ticket-list-button, .add-comment-button {
+    background-color: rgba(17, 103, 177, 0.5);
+}
+/* ---------- */
+
+/* Register */
+.register-btn {
+    background-color: rgba(17, 103, 177, 0.5);
+}
+/* ---------- */
+
+/* Login */
+.form-container {
+    width: 60%;
+    margin-top: 5em;
+}
+
+.login-form {
+    border: 3px solid rgba(17, 103, 177, 1);;
+    border-radius: 10%;
+    padding: 3em;
+}
+
+.login-btn {
+    background-color: rgba(17, 103, 177, 0.5);
+}
+/* ---------- */
+
+/* Create Ticket */
+.create-ticket-btn {
+    background-color: rgba(17, 103, 177, 0.5);
+}
+
+.create-ticket-form {
+    border: 3px solid rgba(17, 103, 177, 1);
+    border-radius: 10%;
+}
+/* ---------- */
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    .form-container {
+        width: 90%;
+        margin-top: 5em;
+    }
+  }
